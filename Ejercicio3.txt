@@ -1,0 +1,8 @@
+Algoritmo Ej3
+	Escribir "Ingrese un numero"
+	Leer Num1
+	Doble = 2*Num1
+	Triple = 3*Num1
+	Escribir "El doble del numero es " Doble " y el triple es " Triple
+	
+FinAlgoritmo
