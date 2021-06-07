@@ -1,0 +1,13 @@
+Algoritmo Ej14
+	Escribir "Ingrese el primer numero"
+	Leer Num1
+	Escribir "Ingrese el segundo numero"
+	Leer Num2
+	Div = Num1%Num2
+	Si Div = 0
+		Escribir "Es divisible"
+	SiNo
+		Escribir "No es divisible"
+	FinSi
+	
+FinAlgoritmo
