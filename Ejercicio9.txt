@@ -1,0 +1,11 @@
+Algoritmo Ej9
+	Escribir "Ingrese la primera palabra"
+	Leer Palabra1
+	Escribir "Ingrese la segunda palabra"
+	Leer Palabra2
+	Palabrax = Palabra1
+	Palabra1 = Palabra2
+	Escribir Palabra1
+	
+	Escribir Palabrax
+FinAlgoritmo
