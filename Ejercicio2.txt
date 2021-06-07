@@ -1,0 +1,8 @@
+Algoritmo Ej2
+	Escribir "Ingrese el pais"
+	Leer Pais
+	Escribir "Ingrese la capital"
+	Leer Capital
+	Escribir Capital " es la capital de " Pais
+	
+FinAlgoritmo
