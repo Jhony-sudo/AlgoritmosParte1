@@ -1,0 +1,8 @@
+Algoritmo Ej8
+	Escribir "Ingrese tres numeros"
+	Leer Num1
+	Leer Num2
+	Leer Num3
+	Promedio = (Num1 + Num2+Num3)/3
+	Escribir "El promedio de los numeros es de: " Promedio
+FinAlgoritmo
