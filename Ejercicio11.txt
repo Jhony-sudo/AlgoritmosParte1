@@ -1,0 +1,10 @@
+Algoritmo Ej11
+	Escribir "Ingrese una medida en centimetros"
+	Leer Dato
+	Yd = Dato/0.01093
+	Metro = Dato/100
+	Pies = Dato/30.48
+	Pulgadas = Dato/2.54
+	Escribir "Ek valor ingresado es igual a :"
+	Escribir Yd " Yardas, " Metro " Metros, " Pies " pies, " Pulgadas " pulgadas."
+FinAlgoritmo
