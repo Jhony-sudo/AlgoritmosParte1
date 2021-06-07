@@ -1,0 +1,17 @@
+Algoritmo Ej13
+	Escribir "Ingrese el radio del cilindro "
+	Leer Radio
+	Escribir "Ingrese la altura del cilindro"
+	Leer Altura
+	Si Radio>0
+		Si Altura>0
+			Area = Radio * Pi
+			Volumen = Area * Altura
+			Escribir "El volumen del cilindro es de: " Volumen
+		SiNo
+			Escribir "Ingrese valores positivos"
+		FinSi
+	SiNo
+		Escribir "Ingrese valores positivos"
+	FinSi
+FinAlgoritmo
