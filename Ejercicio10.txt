@@ -1,0 +1,12 @@
+Algoritmo Ej10
+	Escribir "Ingrese la base del rectangulo"
+	Leer Base
+	Escribir "Ingrese la altura del rectangulo"
+	Leer Altura
+	Perimetro = 2*Base + 2*Altura
+	Area = Base * Altura
+	Escribir "El area del rectangulo es de: " Area
+	Escribir "El perimetro del rectangulo es de: " Perimetro
+	
+	
+FinAlgoritmo
