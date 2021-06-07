@@ -1,0 +1,7 @@
+Algoritmo Ej5
+	Escribir "Ingrese un numero"
+	Leer Num
+	NumSiguiente = Num + 1 
+	Escribir "El numero siguiente es " NumSiguiente
+	
+FinAlgoritmo
