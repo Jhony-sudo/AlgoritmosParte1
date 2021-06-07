@@ -1,0 +1,9 @@
+Algoritmo Ej1
+	Escribir "Ingrese el primer numero"
+	Leer Num1
+	Escribir "Ingrese el segundo nuemero"
+	Leer Num2
+	Suma = Num1 + Num2
+	Escribir "El resultado es: " Suma
+	
+FinAlgoritmo
