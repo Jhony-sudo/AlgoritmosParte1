@@ -1,0 +1,8 @@
+Algoritmo Ej4
+	Escribir "Ingrese un numero"
+	Leer Num
+	Cuadrado = Num * Num
+	Cubo = Cuadrado * Num
+	Escribir "El cuadrado del numero es " Cuadrado " y el cubo del numero es " Cubo
+	
+FinAlgoritmo
