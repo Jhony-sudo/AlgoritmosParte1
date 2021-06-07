@@ -1,0 +1,46 @@
+Algoritmo Ej18
+	Definir A,B,C,D Como Entero
+	Escribir "Digite un numero de 4 digitos"
+	Leer num
+	Lon = Longitud(num)
+	Escribir Lon
+	Si Lon > 4
+		Escribir "Por favor ingrese un numero de solamente 4 digitos"
+	SiNo
+		Segun Lon Hacer
+			1:
+				
+				G = Subcadena(num,1,1)
+				D = ConvertiraNumero(G)
+			2:
+				G = Subcadena(num,1,1)
+				H = Subcadena(num,2,2)
+				C = ConvertirANumero(G)
+				D = ConvertirANumero(H)
+			3:
+				G = Subcadena(num,3,3)
+				H = Subcadena(num,2,2)
+				I = Subcadena(num,1,1)
+				C = ConvertirANumero(G)
+				D = ConvertirANumero(H)
+				B = ConvertirANumero(I)
+			4:
+				G = Subcadena(num,4,4)
+				H = Subcadena(num,3,3)
+				I = Subcadena(num,2,2)
+				J = Subcadena(num,1,1)
+				A = ConvertirANumero(J)
+				B = ConvertirANumero(I)
+				C = ConvertirANumero(H)
+				D = ConvertirANumero(G)
+				
+				
+			De Otro Modo:
+				Escribir ""
+		Fin Segun
+	FinSi
+	Escribir "A = " A "B = " B " C=" C " D =" D
+	Suma = A+B+C+D
+	Escribir "La suma de los digitos es " Suma
+
+FinAlgoritmo
