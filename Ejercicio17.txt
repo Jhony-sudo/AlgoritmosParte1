@@ -1,0 +1,18 @@
+Algoritmo Ej17
+	Escribir "Ingrese la magnitud de los lados de un triangulo"
+	Leer Lado1,Lado2,Lado3
+	Si Lado1=Lado2 y Lado1 = Lado3
+		Escribir "Es un triangulo Equilatero"
+		
+			
+	FinSi
+	Si Lado1 = Lado2 o Lado2 = Lado3 o Lado1 = Lado3 y Lado2<>Lado3
+		Escribir "Es un triangulo Isoceles"
+	FinSi
+	
+	Si Lado1<>Lado2 Y Lado2 <> Lado3	Y Lado1 <> Lado3
+	
+	Escribir "Es un triangulo escaleno"	
+	FinSi
+	
+FinAlgoritmo
