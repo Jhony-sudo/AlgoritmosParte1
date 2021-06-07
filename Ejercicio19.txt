@@ -1,0 +1,15 @@
+Algoritmo Ej19
+	Num = Aleatorio(0,1000)
+	Escribir Num
+	Residuo = Num%5
+	Si Residuo = 0
+		Si Num <= 125
+			ESCRIBIR "Correcto"
+		SiNo
+			Escribir "Incorrecto"
+		FinSi
+	SiNo
+		Escribir "Incorrecto"
+	FinSi
+	
+FinAlgoritmo
