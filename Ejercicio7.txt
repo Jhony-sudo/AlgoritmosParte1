@@ -1,0 +1,6 @@
+Algoritmo Ej7
+	Num = Aleatorio(10,50)
+	Escribir Num
+	Disminucion = Num - (Num/100)*15
+	Escribir "El numero disminuido en 15% es de: " Disminucion
+FinAlgoritmo
