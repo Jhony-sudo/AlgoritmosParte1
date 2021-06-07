@@ -1,0 +1,6 @@
+Algoritmo Ej12
+	Escribir "Ingrese una temperatura en Celsius "
+	Leer Temperatura
+	Conversion = (9/5)*Temperatura+32
+	Escribir "La temperatura ingresada es igual a: " Conversion " Fahrenheit "
+FinAlgoritmo
