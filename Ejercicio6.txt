@@ -1,0 +1,7 @@
+Algoritmo sin_titulo
+	Num = Aleatorio(0,200)
+	Escribir Num
+	Aumento = (Num/100)*30 + Num
+	Escribir "El numero aumentado en 30% es: " Aumento
+	
+FinAlgoritmo
