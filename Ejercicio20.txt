@@ -1,0 +1,18 @@
+Algoritmo Ej20
+	Escribir "Ingrese un numero de 5 digitos"
+	Leer num
+	Lon = Longitud(num)
+	Si Lon = 5
+		L = Subcadena(num,1,1)
+		M = Subcadena(num,2,2)
+		N = Subcadena(num,4,4)
+		P = Subcadena(num,5,5)
+		si L = P Y  M = N
+			Escribir "Es capicua" 
+		SiNo
+			Escribir "No es capicua"
+		FinSi
+	SiNo
+		Escribir "ERROR"
+	FinSi
+FinAlgoritmo
